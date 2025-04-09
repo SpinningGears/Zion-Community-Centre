@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<manifest identifier="sKDUydgHMH_6VI7CIrakx2hmwrlzvHZ1BekUpndS" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:lom="http://www.imsglobal.org/xsd/imsmd_v1p2p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.imsglobal.org/xsd/imsmd_v1p2p2 imsmd_v1p2p2.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+    <lom:lom>
+      <lom:general>
+        <lom:title>
+          <lom:string language="en-US">Zion Community Centre</lom:string>
+        </lom:title>
+        <lom:language>en-US</lom:language>
+      </lom:general>
+      <lom:metaMetadata>
+        <lom:metadataSchema>LOMv1.0</lom:metadataSchema>
+        <lom:metadataSchema>SCORM_CAM_v1.2</lom:metadataSchema> 
+      </lom:metaMetadata>
+    </lom:lom>  
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>Zion Community Centre</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Zion Community Centre</title>
+        <adlcp:datafromlms>eyJjcHYiOiJCZWtVcG5kUyIsInJsZCI6ZmFsc2V9</adlcp:datafromlms>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- FRONTEND BUNDLE ASSETS -->
+      <file href="scormcontent/lib/rise/49d931f8.js" />
+<file href="scormcontent/lib/rise/f456841e.css" />
+<file href="scormcontent/lib/rise/d15a3341.js" />
+<file href="scormcontent/lib/rise/8904f433.css" />
+<file href="scormcontent/lib/rise/75984d30.js" />
+<file href="scormcontent/lib/rise/77688f0c.js" />
+<file href="scormcontent/lib/rise/75f8c3eb.js" />
+<file href="scormcontent/lib/rise/10cbab57.js" />
+<file href="scormcontent/lib/rise/9689cd64.js" />
+<file href="scormcontent/lib/mondrian/entry.js" />
+<file href="scormcontent/lib/mondrian/476d6468.js" />
+<file href="scormcontent/lib/mondrian/33d78c9b.js" />
+<file href="scormcontent/lib/mondrian/215fe725.js" />
+<file href="scormcontent/lib/mondrian/c16e7dd3.js" />
+<file href="scormcontent/lib/mondrian/6eb617eb.js" />
+<file href="scormcontent/lib/mondrian/018ba6a4.js" />
+<file href="scormcontent/lib/mondrian/5ebb90af.js" />
+<file href="scormcontent/lib/mondrian/825dd797.js" />
+<file href="scormcontent/lib/mondrian/beccd965.js" />
+<file href="scormcontent/lib/mondrian/56ae9b9c.js" />
+
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Montserrat-SemiBold.woff" />
+<file href="scormcontent/lib/fonts/Montserrat-Medium.woff" />
+<file href="scormcontent/lib/fonts/Montserrat-Black.woff" />
+<file href="scormcontent/lib/fonts/Montserrat-Bold.woff" />
+<file href="scormcontent/lib/fonts/Montserrat-Italic.woff" />
+<file href="scormcontent/lib/fonts/Montserrat-Regular.woff" />
+<file href="scormcontent/lib/fonts/Montserrat-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Black.woff" />
+<file href="scormcontent/lib/fonts/Cormorant-Bold.woff" />
+<file href="scormcontent/lib/fonts/Cormorant-Italic.woff" />
+<file href="scormcontent/lib/fonts/Cormorant-Regular.woff" />
+<file href="scormcontent/lib/fonts/Cormorant-Light.woff" />
+<file href="scormcontent/assets/small.png" />
+<file href="scormcontent/assets/Zt2B9kTO74VV1_3_.jpg" />
+<file href="scormcontent/assets/IMG_8546.jpg" />
+<file href="scormcontent/assets/Screenshot-2023-06-02-16.13.38.jpg" />
+<file href="scormcontent/assets/IMG_9656.jpg" />
+<file href="scormcontent/assets/Lego%20Morning.jpg" />
+<file href="scormcontent/assets/IMG_4338.jpg" />
+<file href="scormcontent/assets/Spring%20Fair.jpg" />
+<file href="scormcontent/assets/Martin%20Grant%20_IMG_4050.jpg" />
+<file href="scormcontent/assets/Zion%20Babies.jpg" />
+<file href="scormcontent/assets/IMG_9470.jpg" />
+<file href="scormcontent/assets/History%20Group.jpg" />
+<file href="scormcontent/assets/BS3%20Santa.jpg" />
+<file href="scormcontent/assets/Women%20In%20Business.jpg" />
+<file href="scormcontent/assets/20250221_150038.jpg" />
+<file href="scormcontent/assets/Screenshot%202025-03-15%20at%2018.17.15.png" />
+
+      <file href="scormcontent/locales/und.js" />
+
+    </resource>
+  </resources>
+</manifest>
